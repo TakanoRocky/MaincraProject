@@ -138,6 +138,7 @@ public class RandomMapMaker : MonoBehaviour
         if (y > _maxHeight * 0.3f)
         {
             ColorUtility.TryParseHtmlString("#019540FF", out color);//草っぽい色
+
         }
         else if (y > _maxHeight * 0.2f)
         {
